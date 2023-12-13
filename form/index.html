@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Quality Check Sheet</title>
+  </head>
+  <body>
+    <div class="form-body">
+      <div class="sec-1">
+        <img src="../public/images/Fixit45-logo.png" alt="" class="logo" />
+
+        <div class="title">Vehicle Quality Check-Sheet</div>
+      </div>
+      <div class="horizontal-rule"></div>
+
+      <div class="sec-2">
+        <div class="input-group">
+          <input
+            type="text"
+            title=""
+            placeholder="Customer name"
+            class="input"
+          />
+          <input type="text" title="" placeholder="Year/Model" class="input" />
+        </div>
+        <div class="input-group">
+          <div class="date-input-wrap">
+            <input type="text" title="" placeholder="Date" class="input-date" />
+            <img
+              src="../public/images/date-icon.png"
+              alt=""
+              class="date-icon"
+            />
+          </div>
+
+          <input type="text" title="" placeholder="Year/Model" class="input" />
+        </div>
+        <div class="input-group">
+          <input type="text" title="" placeholder="VIN" class="input" />
+          <input
+            type="text"
+            title=""
+            placeholder="Repair Order #"
+            class="input"
+          />
+        </div>
+        <div class="input-group">
+          <input
+            type="text"
+            title=""
+            placeholder="Workshop Manager"
+            class="input"
+          />
+          <input type="text" title="" placeholder="Technician" class="input" />
+        </div>
+      </div>
+
+      <div class="sec-3">
+        <div class="check-and-ok">
+          <div class="text-ok">CHECKED AND OKAY</div>
+        </div>
+        <div class="check-future-attention">
+          <div class="future-attention-text">MAY NEED FUTURE ATTENTION</div>
+        </div>
+        <div class="check-interior-exterior">
+          <div class="interior-text">REQUIRES IMMEDIATE ATTENTION</div>
+        </div>
+      </div>
+      <div class="sec-4">
+        <div class="divider">INTERIOR/EXTERIOR</div>
+      </div>
+      <div class="sec-5">
+        <div class="check-input-wrap">
+          <div class="green-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="yellow-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="red-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+        </div>
+        <div class="text-wrap">
+          <div class="text-item">
+            Head Lights/Tail Lights/Turn Signals/ Brake Lights/ Hazard Warning
+            Lights / Exterior Lamps (Operation)
+          </div>
+        </div>
+      </div>
+      <div class="sec-4">
+        <div class="divider">UNDER VEHICLE</div>
+      </div>
+      <div class="sec-5">
+        <div class="check-input-wrap">
+          <div class="green-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="yellow-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="red-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+        </div>
+        <div class="text-wrap">
+          <div class="text-item">
+            Head Lights/Tail Lights/Turn Signals/ Brake Lights/ Hazard Warning
+            Lights / Exterior Lamps (Operation)
+          </div>
+        </div>
+      </div>
+      <div class="sec-4">
+        <div class="divider">UNDER HOOD</div>
+      </div>
+      <div class="sec-5">
+        <div class="check-input-wrap">
+          <div class="green-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="yellow-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+          <div class="red-bg">
+            <input
+              type="checkbox"
+              placeholder=""
+              title=""
+              class="check-button"
+            />
+          </div>
+        </div>
+        <div class="text-wrap">
+          <div class="text-item">
+            Head Lights/Tail Lights/Turn Signals/ Brake Lights/ Hazard Warning
+            Lights / Exterior Lamps (Operation)
+          </div>
+        </div>
+      </div>
+
+      <div class="plain-check-wrap">
+        <div class="check-input-container">
+          <input type="checkbox" id="checkboxId" class="checkbox-input" />
+          <label for="checkboxId" class="label">Pass</label>
+        </div>
+        <div class="check-input-container">
+          <input type="checkbox" id="checkboxId" class="checkbox-input" />
+          <label for="checkboxId" class="label">Recharge Retest</label>
+        </div>
+        <div class="check-input-container">
+          <input type="checkbox" id="checkboxId" class="checkbox-input" />
+          <label for="checkboxId" class="label">Fail</label>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="sec-4">
+        <div class="divider">BRAKE AND TIRE</div>
+      </div>
+
+      <div class="sec-7">
+        <div class="top-item">
+          <div class="left-container">
+            <div class="text-title">Left Front</div>
+            <div class="left-box">
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Brake Pads/Lining</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Tire Tread</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Wear Pattern"
+                    class="mini-check-input"
+                  />
+                </div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Tire Pressure"
+                    class="mini-check-input"
+                  />
+                  <span>psi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-container">
+            <div class="text-title">Right Front</div>
+            <div class="right-box">
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Brake Pads/Lining</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Tire Tread</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Wear Pattern"
+                    class="mini-check-input"
+                  />
+                </div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Tire Pressure"
+                    class="mini-check-input"
+                  />
+                  <span>psi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ///////////////////////////////// Image -->
+
+        <div class="illustration-wrap">
+          <img
+            src="../public//images//mech.png"
+            width="200"
+            alt=""
+            class="illustration"
+          />
+        </div>
+        <!-- ////////////////////////////////////////////////// -->
+
+        <div class="top-item">
+          <div class="left-container">
+            <div class="text-title">Left Rear</div>
+            <div class="left-box">
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Brake Pads/Lining</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Tire Tread</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Wear Pattern"
+                    class="mini-check-input"
+                  />
+                </div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Tire Pressure"
+                    class="mini-check-input"
+                  />
+                  <span>psi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right-container">
+            <div class="text-title">Right Rear</div>
+            <div class="right-box">
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Brake Pads/Lining</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">Tire Tread</div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Wear Pattern"
+                    class="mini-check-input"
+                  />
+                </div>
+              </div>
+              <div class="mini-check-box-container">
+                <div class="input-wrapper">
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-yellow"
+                  />
+                  <input
+                    type="checkbox"
+                    id="checkboxId"
+                    class="custom-checkbox-red"
+                  />
+                </div>
+                <div class="mini-check-text">
+                  <input
+                    type="text"
+                    placeholder="Tire Pressure"
+                    class="mini-check-input"
+                  />
+                  <span>psi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="end-check-box">
+          <input type="checkbox" id="checkboxId" class="checkbox-end" />
+          <div>Brake Inspection Not Performed This Visit</div>
+        </div>
+      </div>
+      <div class="sec-9">
+        <div class="divider-9">BRAKE AND TIRE</div>
+      </div>
+      <div class="message-box-wrap">
+        <textarea
+          name=""
+          id=""
+          placeholder="Type something ....."
+          cols="30"
+          rows="10"
+          class="message-box-input"
+        ></textarea>
+      </div>
+      <div class="confirn-quality-wrap">
+        <div class="qualit-confirm">QUALITY CONFIRMATION</div>
+      </div>
+      <div class="quality-confirmation-items-wrap">
+        <div class="quality-confirmation-item">
+          1. CONFIRM ALL JOBS REQUESTED ARE ATTENDED SATISFACTORILY - YES / NO
+        </div>
+        <div class="quality-confirmation-item">
+          2. VEHICLE IS ROADWORTHY AND SAFE TO USE - YES / NO
+        </div>
+        <div class="quality-confirmation-item">
+          I certify that the quality check is done on the vehicle & all
+          information above is accurate and vehicle is fit for use with above
+          remarks for attention of the user of the vehicle.
+        </div>
+      </div>
+      <div class="q-inspection-name-warp">
+        <div class="q-inspection-name">Quality Inspector's Name</div>
+      </div>
+
+      <div class="footer-wrap">
+        <div class="customer-copy">Customer Copy</div>
+        <div class="remarks">
+          This document must be shared with customer as a soft copy
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
