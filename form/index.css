@@ -699,6 +699,7 @@ body {
   width: 542px;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .checkbox-end {
