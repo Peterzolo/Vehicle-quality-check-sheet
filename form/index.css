@@ -292,8 +292,9 @@ body {
   align-items: center;
   justify-content: space-around;
   border: 1px solid #383838;
+  border-top: none;
   height: 50px;
-  background-color: #383838;
+  /* background-color: #383838; */
 }
 
 .plain-check-wrap input[type="radio"] {
@@ -318,6 +319,7 @@ body {
 .checkbox-input {
   width: 30px;
   height: 30px;
+  border: 1px solid #383838;
 }
 .label {
   color: #ffffff;
@@ -330,6 +332,7 @@ body {
 .sec-7 {
   width: 586px;
   border: 1px solid #383838;
+  margin-top: 20px;
 }
 
 .top-item {
